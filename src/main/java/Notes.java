@@ -17,7 +17,7 @@ class Notes {
 				i = numArray.length; //Does first occurance ONLY
 			}
 		}
-
+		
 		// return index;
 		System.out.println(index);
 		
