@@ -17,14 +17,14 @@ public class PracticeProblem {
     }
 
 	public static String findLast(String[] array, String string){
-		int index = -1;
+		int index=-1;
 		int occurances = 0;
-        for (int i = 0; i < array.length; i++){
+        for ( int i = array.length- 1; i>= 0; i--){
             if (array[i].equals(string)){
-                index = i;
+                return i;
             }
         }
-        return String.valueOf(index);
+        return -1;
     }
 
 	public static char findSecond(char[] array, char character){
